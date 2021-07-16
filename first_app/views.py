@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
 
 def index(request):
-    return HttpResponse("Placegolder to later display list of blogs")
+    return HttpResponse("Placeholder to later display list of blogs")
 
 def create(request):
     return redirect('/')
